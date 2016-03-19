@@ -1,0 +1,14 @@
+@mixin more ($white, $width, $top, $font-size){
+	color: $white;
+	width: $width;
+	margin-top:$top;
+	font-size:$font-size; 
+}
+	 
+@mixin subtitle ($palette, $subtitle-size, $bottom, $subtitle-size, $font-subtitle){
+	color: $palette;
+	font-size: $subtitle-size;
+	margin-bottom:$bottom;
+	font-size:$subtitle-size;
+	font-family:$font-subtitle;
+}
